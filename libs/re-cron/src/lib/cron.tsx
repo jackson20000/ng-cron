@@ -24,7 +24,7 @@ export class ReCron extends CronBaseComponent<ReCronProps, ReCronState> {
 		super(props, Date.now());
 
 		this.state = {
-			tab: tabs[0],
+			tab: tabs[2],
 			session: this.session
 		};
 	}
